@@ -7,5 +7,6 @@ int print_string(va_list val);
 int _strlenc(const char *str)
 int _strlen(char *str)
 int print_37(void);
-
+int print_dec(va_list args)
+int print_int(va_list args)
 #endif
