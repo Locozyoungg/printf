@@ -20,6 +20,10 @@ int print_unsigned(va_list args)
 =======
 int _putchar(char c);
 int _puts(char *str);
+<<<<<<< HEAD
 >>>>>>> 21f62d8b020213740a655be6713fb2228931fa72
+=======
+int count_digits(int n);
+>>>>>>> 7ad2f0a2437750e3c8df79334e92b2c318ff10c4
 
 #endif
