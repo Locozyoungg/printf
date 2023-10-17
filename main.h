@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _putchar(char c);
+
+#include <stdarg.h>
+
 int _printf(const char *format, ...);
+<<<<<<< HEAD
 int printf_char(va_list val);
 int print_string(va_list val);
 int _strlenc(const char *str)
@@ -14,5 +17,9 @@ int print_unsigned(va_list args)
 
 
 
+=======
+int _putchar(char c);
+int _puts(char *str);
+>>>>>>> 21f62d8b020213740a655be6713fb2228931fa72
 
 #endif
